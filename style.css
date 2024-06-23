@@ -1,0 +1,48 @@
+/* css da página principal */
+
+body {
+    background-image: url(wall.jpg);
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    border-radius: 30px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+nav li {
+    display: flex;
+    margin: 0 0 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px 0;
+}
+
+nav a:hover{
+    color: rgb(255, 72, 0);
+    transition: 200ms ease-in-out;
+    transform: scaleX(1.1);
+}
+
+
+.listas {
+    color: rgb(218, 163, 163);
+    text-transform: uppercase;
+}
+
+.links {
+    text-align: right;
+}
